@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>&lt;my-element> Demo</title>
+    <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
+    <script src="../node_modules/lit/polyfill-support.js"></script>
+    <script type="module" src="../my-element.js"></script>
+    <script type="module" src="../buid/componentes/ejercicio-propiedades.js"></script>
+    <script type="module" src="../buid/componentes/mis-condiciones.js"></script>
+    <script type="module" src="../buid/componentes/mi-listado.js"></script>
+    <script type="module" src="../buid/componentes/mi-slot.js"></script>
+    <style>
+      p {
+        border: solid 1px blue;
+        padding: 8px;
+      }
+    </style>
+  </head>
+  <body>
+    <my-element>
+      <p>This is child content</p>
+    </my-element>
+    <ejercicio-propiedades valor="Más Valor">
+    </ejercicio-propiedades>
+    <mis-condiciones numerito="3">
+
+    </mis-condiciones>
+    <mi-listado>
+      <h1>Participantes del curso</h1>
+    </mi-listado>
+    <mi-slot>
+      <span slot="cabeza">Desde mi cabeza</span>
+      <span slot="pie">Hasta los pies</span>
+    </mi-slot>
+  </body>
+</html>
