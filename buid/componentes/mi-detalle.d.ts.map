@@ -1,0 +1,1 @@
+{"version":3,"file":"mi-detalle.d.ts","sourceRoot":"","sources":["../../src/componentes/mi-detalle.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAE1C,OAAO,aAAa,CAAC;AACrB,qBACa,OAAQ,SAAQ,UAAU;IAEnC,OAAgB,MAAM,0BAEtB;IAGA,IAAI,SAAM;IAED,MAAM;CAQlB;AAED,OAAO,CAAC,MAAM,CAAC;IACX,UAAU,qBAAqB;QAC3B,YAAY,EAAE,OAAO,CAAC;KACzB;CACJ"}

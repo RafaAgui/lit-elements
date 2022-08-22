@@ -1,0 +1,1 @@
+{"version":3,"file":"madre.d.ts","sourceRoot":"","sources":["../../src/componentes/madre.ts"],"names":[],"mappings":"AAAA;;;;GAIG;AAEF,OAAO,EAAC,UAAU,EAAY,MAAM,KAAK,CAAC;AAG1C,qBACa,KAAM,SAAQ,UAAU;IACnC,OAAgB,MAAM,0BAKpB;IAIO,MAAM;CAKf;AAGF,OAAO,CAAC,MAAM,CAAC;IACb,UAAU,qBAAqB;QAC7B,WAAW,EAAE,KAAK,CAAC;KACpB;CACF"}

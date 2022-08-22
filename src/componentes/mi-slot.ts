@@ -10,7 +10,17 @@
  
  @customElement('mi-slot')
  export class MiSlotChachi extends LitElement {
-   static override styles = css`  
+   static override styles = css`
+   :host{
+    color: green;
+   }  
+   :host(.red){
+    color: red;
+   }
+   ::slotted(h2) { 
+    text-transform: uppercase;
+    color: blue; 
+  }
    td{
     border: 1px solid black;
    }

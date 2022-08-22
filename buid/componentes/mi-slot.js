@@ -38,7 +38,17 @@ let MiSlotChachi = class MiSlotChachi extends LitElement {
       `;
     }
 };
-MiSlotChachi.styles = css `  
+MiSlotChachi.styles = css `
+   :host{
+    color: green;
+   }  
+   :host(.red){
+    color: red;
+   }
+   ::slotted(h2) { 
+    text-transform: uppercase;
+    color: blue; 
+  }
    td{
     border: 1px solid black;
    }

@@ -6,11 +6,24 @@
     <title>&lt;my-element> Demo</title>
     <script src="../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
     <script src="../node_modules/lit/polyfill-support.js"></script>
-    <script type="module" src="../my-element.js"></script>
+    <script type="module" src="../buid/my-element.js"></script>
     <script type="module" src="../buid/componentes/ejercicio-propiedades.js"></script>
     <script type="module" src="../buid/componentes/mis-condiciones.js"></script>
     <script type="module" src="../buid/componentes/mi-listado.js"></script>
     <script type="module" src="../buid/componentes/mi-slot.js"></script>
+    <script type="module" src="../buid/componentes/madre.js"></script>
+    <script type="module" src="../buid/componentes/hija.js"></script>
+    <script type="module" src="../buid/componentes/mi-elemento-anidador.js"></script>
+    <script type="module" src="../buid/componentes/mi-elemento-anidado.js"></script>
+    <script type="module" src="../buid/componentes/mi-formulario.js"></script>
+    <script type="module" src="../buid/componentes/mi-peticion.js"></script>
+    <script type="module" src="../buid/componentes/http-request.js"></script>
+    <script type="module" src="../buid/componentes/mi-composicion.js"></script>
+    <script type="module" src="../buid/componentes/mi-mixin.js"></script>
+
+
+
+
     <style>
       p {
         border: solid 1px blue;
@@ -34,5 +47,30 @@
       <span slot="cabeza">Desde mi cabeza</span>
       <span slot="pie">Hasta los pies</span>
     </mi-slot>
+    <mi-slot class="red">
+    </mi-slot>
+    <mi-slot class="red">
+      <h2 slot="cabeza">Cabeza</h2>
+      <span slot="pie">Esto no tiene que ser ni rojo ni may.</span>
+    </mi-slot>
+    <madre>
+      madre
+    </madre>
+    <hija>
+      Hija
+    </hija>
+    <mi-elemento-anidador>
+        <mi-elemento-anidado>
+        </mi-elemento-anidado>
+    </mi-elemento-anidador>
+    <mi-formulario>
+
+    </mi-formulario>
+
+    <mi-peticion></mi-peticion>
+
+    <my-http-request></my-http-request>
+    <mi-composicion></mi-composicion>
+    <mi-mixin></mi-mixin>
   </body>
 </html>
